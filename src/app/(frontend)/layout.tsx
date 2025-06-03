@@ -8,7 +8,8 @@ export const metadata = {
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
   const { children } = props
-
+  const respo = fetch('https://payload-vercel-website-demo.vercel.app/api/posts')
+  console.log(respo)
   return (
     <html lang="en">
       <body>

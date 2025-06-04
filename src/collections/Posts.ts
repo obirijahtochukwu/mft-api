@@ -1,4 +1,6 @@
-const Students: any = {
+import type { CollectionConfig } from 'payload'
+
+const Students: CollectionConfig = {
   slug: 'students',
   admin: {
     useAsTitle: 'name',
